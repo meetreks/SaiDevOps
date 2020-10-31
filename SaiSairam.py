@@ -13,10 +13,10 @@ for i in range(10):
         prev = 1
         prevt = 1
     else:
-        current = prevt + prev
-        print(current)
+        kukhi = prevt + prev
+        print(kukhi)
         prevt = prev
-        prev = current
+        prev = kukhi
 
 
 
