@@ -1,3 +1,4 @@
+#TO print Fibo Series to 10!!!
 y = 0
 for i in range(10):
     x = i
@@ -13,9 +14,10 @@ for i in range(10):
         prevt = 1
     else:
         current = prevt + prev
+        print(current)
         prevt = prev
         prev = current
-        print(current)
+
 
 
 
